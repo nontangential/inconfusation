@@ -1,0 +1,16 @@
+<% var icf_maps_height = 400; %>
+<section id="icf-maps">
+    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4648.505847265904!2d18.628941458581547!3d54.370181423239245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd749d76948bc7%3A0xd53dee6a5e7ddc6b!2sTraugutta%2002!5e0!3m2!1sen!2spl!4v1608681380443!5m2!1sen!2spl"
+     width="1200" height=<%- icf_maps_height %> frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <script>
+        // map full width resizer
+        (function() {
+            var $map = document.querySelector("#icf-maps>iframe");
+            var maxwidth = function(){
+                $map.width = document.body.clientWidth;
+            };
+            window.addEventListener("DOMContentLoaded", maxwidth);
+            window.addEventListener("resize", maxwidth);
+        })();
+    </script>
+</section>

@@ -1,0 +1,11 @@
+{
+  "name": "inconfusation",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npx ejs index.ejs -f config.json -o index.html",
+    "start": "npm run build && npx http-server"
+  },
+  "author": "",
+  "license": "ISC"
+}

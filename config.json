@@ -1,0 +1,10 @@
+{
+    "title": "inconfusation",
+    "sections": [
+        {"ejs": "partials/header/header.ejs", "css": "partials/header/header.css"},
+        {"ejs": "partials/carousel/carousel.ejs", "css": "partials/carousel/carousel.css"},
+        {"ejs": "partials/maps/maps.ejs", "css": "partials/maps/maps.css"},
+        {"ejs": "partials/scrolltopbutton/scrolltopbutton.ejs", "css": "partials/scrolltopbutton/scrolltopbutton.css"},
+        {"ejs": "partials/footer/footer.ejs", "css": "partials/footer/footer.css"}
+    ]
+}

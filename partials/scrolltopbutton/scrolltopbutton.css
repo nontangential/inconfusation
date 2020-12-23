@@ -1,0 +1,14 @@
+#icf-scrollupbutton {
+    width: 50px;
+    height: 50px;
+
+    position: fixed;
+    z-index: 999;
+    bottom: 80px;
+    right: 80px;
+
+    border: 2px solid #ddd;
+    
+    background: #222;
+    color: #ddd;
+}

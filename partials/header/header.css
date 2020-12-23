@@ -1,0 +1,14 @@
+#icf-header {
+    height: 100px;
+    width: 100%;
+}
+
+#icf-header>header {
+    height: 100px;
+    width: 100%;
+
+    position: fixed;
+
+    background: #222;
+    color: #ddd;
+}

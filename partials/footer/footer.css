@@ -1,0 +1,22 @@
+#icf-footer {
+    height: 100px;
+    width: 100%;
+}
+
+#icf-footer>footer {
+    height: 100px;
+    width: 100%;
+
+    background: #222;
+    color: #ddd;
+}
+
+/* fixed vs not fixed */
+#icf-footer {
+    margin-top: auto;
+}
+
+/* #icf-footer>footer {
+    position: fixed;
+    bottom: 0;
+} */
